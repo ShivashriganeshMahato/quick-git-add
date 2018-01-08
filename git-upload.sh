@@ -20,7 +20,7 @@ git add .
 printf "\nWhat should the initial commit message be?\n"
 read commitMsg
 
-git commit -m "$commitMsg"
+git commit -m $commitMsg
 
 printf "\nReady to push (y/n)?\n"
 read push
