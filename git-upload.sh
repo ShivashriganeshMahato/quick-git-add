@@ -27,7 +27,7 @@ read push
 
 if [[ $push = "Y" || $push = "y" ]]; then
   git push origin master
-  echo "\nPush successful"
+  printf "\nPush successful"
 else
-  echo "\nPush aborted"
+  printf "\nPush aborted"
 fi
